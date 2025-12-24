@@ -1,4 +1,3 @@
-# Physics-Constrained-Neural-Networks-PCNN-
 
 # Physics-Constrained Neural Networks (PCNN) for Composite Failure Envelopes
 
