@@ -24,7 +24,6 @@ The codebase is structured effectively to support multiple physical fidelity lev
 ├── Tsai-wu-PCNN/           # Implementation with Tsai-Wu constraints (Macroscopic)
 │   ├── main.py
 │   └── ...
-├── datasetnew.csv          # [REQUIRED] The master dataset containing experimental data
 └── README.md
 
 ```
@@ -34,7 +33,7 @@ The codebase is structured effectively to support multiple physical fidelity lev
 The framework operates on a **Decoupled Prediction Strategy** and an **Adaptive Weighting Mechanism**. The logical flow for all three modules is as follows:
 
 1. **Data Ingestion (`data_processor.py`)**:
-* Loads experimental stress data (`sx`, `sy`, `txy`, etc.) from `datasetnew.csv`.
+* Loads experimental stress data (`sx`, `sy`, `txy`, etc.)
 * Normalizes inputs and splits data into training/testing sets based on the Case ID.
 
 
